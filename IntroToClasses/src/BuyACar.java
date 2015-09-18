@@ -11,6 +11,8 @@ public class BuyACar
 				dealership.add(new Car("Honda", "Pilot", 1996));
 				dealership.add(new Car("Apple", "No-Windows", 2015));
 				System.out.println(dealership.get(2).getModel());
+				dealership.get(0).setModel("Tacoma");
+				System.out.println(dealership.get(0).getModel());
 			}
 
 	}
